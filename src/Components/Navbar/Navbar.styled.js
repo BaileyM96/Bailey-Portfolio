@@ -9,6 +9,6 @@ text-align: center;
 padding: 15px 20px;
 `;
 
-export const H2nav = styled.h2`
+export const H1nav = styled.h1`
 color: black;
 `;
