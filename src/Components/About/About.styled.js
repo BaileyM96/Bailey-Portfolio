@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { device } from "../../breakpoints";
 
 export const AboutContainer = styled.section`
 display: flex;
@@ -8,6 +8,18 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 30px;
+
+@media ${device.tablet} {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media ${device.desktop} {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 `;
 
 export const Meimage = styled.img`
