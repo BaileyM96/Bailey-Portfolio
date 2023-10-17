@@ -4,6 +4,7 @@ import {
     Title, 
     AboutBody 
 } from "./About.styled";
+import Projects from "../Projects/Projects";
 
 
 
@@ -18,6 +19,9 @@ export default function About() {
             <br />
             Beyond technical prowess, my adaptability and proactive approach are bolstered by keen communication and leadership abilities. Mastery over tools like React, Git, and GitHub ensures I seamlessly weave into and lead cross-functional collaborations.
             </AboutBody>
+            
+            {/* Show Project cards */}
+            <Projects />
         </AboutContainer>
     )
 }
