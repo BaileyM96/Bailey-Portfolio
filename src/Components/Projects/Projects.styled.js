@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { device } from "../../breakpoints";
 
+
 export const ProjectContainer = styled.section`
 display: flex;
 justify-content: center;

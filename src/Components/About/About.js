@@ -12,7 +12,7 @@ import Projects from "../Projects/Projects";
 export default function About() {
     return(
         <AboutContainer>
-            <Meimage src='/Bailey Portrait.jpg' />
+            <Meimage src='/Bailey Portrait.JPG' />
             <Title>Full-Stack Developer, Bailey.</Title>
             <AboutBody>Hailing from the dynamic landscape of Los Angeles, California, I'm Bailey Mejia a dedicated full-stack developer. My digital work includes HTML, CSS, JavaScript, MongoDB, and GraphQL.
             <br />
