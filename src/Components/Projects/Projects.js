@@ -18,7 +18,7 @@ export default function Projects() {
                             <Card.Description>
                                 A labor tracking software.
                             </Card.Description>
-                            <Image src='/one_community_global_logo.jpeg'
+                            <Image src={process.env.PUBLIC_URL + '/images/one_community_global_logo.jpeg'}
                             size="small"
                             />
 
@@ -60,7 +60,7 @@ export default function Projects() {
                             Overwatch match-winning counter.
                             </Card.Description>
                             <Image 
-                            src='/Overwatch_circle_logo.svg.png'
+                             src={process.env.PUBLIC_URL + '/images/Overwatch_circle_logo.svg.png'}
                             size="small"
                             />
 
@@ -104,7 +104,7 @@ export default function Projects() {
                             All-location weather app.
                             </Card.Description>
                             <Image 
-                            src='/Clouds.png'
+                             src={process.env.PUBLIC_URL + '/images/clouds.png'}
                             size="small"
                             />
 
@@ -147,7 +147,7 @@ export default function Projects() {
                                 A dating app for developers by developers!
                             </Card.Description>
                             <Image 
-                            src='/LOVE DEV logo.png'
+                             src={process.env.PUBLIC_URL + '/images/LOVE DEV logo.png'}
                             size="small"
                             />
 
@@ -190,7 +190,7 @@ export default function Projects() {
                             Figure out the best workout plan that fits your lifestyle.
                             </Card.Description>
                             <Image 
-                            src='/Burnt_adobe_express.svg'
+                             src={process.env.PUBLIC_URL + '/images/Burnt_adobe_express.svg'}
                             size="small"
                             />
 
