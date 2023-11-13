@@ -104,7 +104,7 @@ export default function Projects() {
                             All-location weather app.
                             </Card.Description>
                             <Image 
-                             src={process.env.PUBLIC_URL + '/images/clouds.png'}
+                             src={process.env.PUBLIC_URL + '/images/Clouds.png'}
                             size="small"
                             />
 
