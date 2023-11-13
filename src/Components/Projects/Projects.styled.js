@@ -4,10 +4,13 @@ import { device } from "../../breakpoints";
 
 export const ProjectContainer = styled.section`
 display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 text-align: center;
 padding-top: 70px;
+width: 100%;
 `;
 
 export const ProjectCards = styled.div`
@@ -35,4 +38,6 @@ flex-wrap: wrap;
 export const ProjectHeader = styled.h2`
 color: black;
 font-weight: bolder;
+text-align: center;
+width: 100%;
 `;

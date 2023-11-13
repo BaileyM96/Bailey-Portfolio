@@ -5,6 +5,7 @@ import {
     AboutBody 
 } from "./About.styled";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 
 
@@ -21,6 +22,7 @@ export default function About() {
             </AboutBody>
             
             {/* Show Project cards */}
+            <Skills />
             <Projects />
         </AboutContainer>
     )
